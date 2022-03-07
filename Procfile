@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT Maneesh_Mart:app
+web: gunicorn app:app
